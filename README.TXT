@@ -1,75 +1,75 @@
-ÊµÑéÆ÷²Ä:
-	Õ½½¢STM32F103¿ª·¢°åV3°æ±¾
+å®žéªŒå™¨æ:
+	æˆ˜èˆ°STM32F103å¼€å‘æ¿V3ç‰ˆæœ¬
 	
-ÊµÑéÄ¿µÄ:
-	×ÛºÏ²âÊÔÊµÑé,²âÊÔÕû¸ö¿ª·¢°åÓ²¼þ,ÌåÑéSTM32Ç¿´óµÄ¹¦ÄÜ.
+å®žéªŒç›®çš„:
+	ç»¼åˆæµ‹è¯•å®žéªŒ,æµ‹è¯•æ•´ä¸ªå¼€å‘æ¿ç¡¬ä»¶,ä½“éªŒSTM32å¼ºå¤§çš„åŠŸèƒ½.123
 	
-Ó²¼þ×ÊÔ´:
-	1,DS0(Á¬½ÓÔÚPB5),DS1(Á¬½ÓÔÚPE5)
-	2,·äÃùÆ÷(Á¬½ÓÔÚPB8) 
-	3,°´¼üKEY0(PE4)/KEY1(PE3)/KEY2(PE2)/KEY_UP(PA0,Ò²³ÆÖ®ÎªWK_UP)
-	4,Íâ²¿SRAM(IS62WV51216,Í¨¹ýFSMCÇý¶¯,FSMC_NE3½ÓSRAM) 
-	5,´®¿Ú1(²¨ÌØÂÊ:115200,PA9/PA10Á¬½ÓÔÚ°åÔØUSB×ª´®¿ÚÐ¾Æ¬CH340ÉÏÃæ)
-	6,´®¿Ú3(²¨ÌØÂÊ:115200,PB10/PB11)
-	7,ALIENTEK 2.8/3.5/4.3/7´çTFTLCDÄ£¿é(Í¨¹ýFSMCÇý¶¯,FSMC_NE4½ÓLCDÆ¬Ñ¡/A10½ÓRS)
-	8,TPADµçÈÝ´¥Ãþ°´¼ü(ÓÒÏÂ½ÇLOGO,¼´TPAD,Á¬½ÓÔÚPA1)
-	9,¶¨Ê±Æ÷TIM2~TIM8
-	10,RTC(ÊµÊ±Ê±ÖÓ)
-	11,ADC(¶ÁÈ¡ÄÚ²¿ÎÂ¶È´«¸ÐÆ÷)
-	12,VS1053(ÒôÀÖ²¥·Å/NESÓÎÏ·/Â¼Òô»úÊµÑé)
-	13,¹âÃô´«¸ÐÆ÷(Á¬½ÓÔÚPF8)
-	14,24C02(IICÁ¬½ÓÔÚPB6/PB7ÉÏÃæ) 
-	15,W25Q128(SPI FLASHÐ¾Æ¬,Á¬½ÓÔÚSPI2ÉÏ)  
-	16,´¥ÃþÆÁ(TFTLCDÄ£¿é×Ô´øÁË,IO×´Ì¬Îª:T_PEN(PF10)/T_MOSI(PF9)/T_MISO(PB2)/T_SCK(PB1)/T_CS(PF11)) 
-	17,9ÕëFCÓÎÏ·ÊÖ±ú(CLK½ÓPD3,DAT½ÓPB10,LAT½ÓPB11)
-	18,DS18B20´«¸ÐÆ÷Ò»¸ö(½ÓÔÚPG11ÉÏ). 	
-	19,ALIENTEK MPU6050Ä£¿éÒ»¸ö(Á¬½ÓÔÚPB10(SCL),PB11(SDA),PA15(AD0)ÉÏÃæ,INTÎ´ÓÃµ½). 
-	20,NRF24L01Ä£¿é(SPI2(PB13/PB14/PB15)/IRQ(PG6)/CS(PG7)/CE(PG8)). 
-	21,ALIENTEK OV7670ÉãÏñÍ·Ä£¿é
-	22,USB_SLAVE½Ó¿Ú(Í¨¹ýÌøÏßÃ±½«D-/D+Á¬½ÓÔÚPA11/PA12ÉÏ)
-	23,DM9000(Í¨¹ýFSMCÇý¶¯,FSMC_NE2½ÓDM9000) 
-	24,SD¿¨,Í¨¹ýSDIO(SDIO_D0~D4(PC8~PC11),SDIO_SCK(PC12),SDIO_CMD(PD2))Á¬½Ó 
-	25,HS0038ºìÍâ½ÓÊÕÍ·
-	26,°åÔØßäÍ·(Â¼Òô/TOMÃ¨)
-	27,°åÔØÀ®°È(²¥·ÅÒôÀÖ/NESÓÎÏ·/TOMÃ¨)
-	28,ALIENTEK SIM900/SIM900A GSMÄ£¿é(µç»°/¶ÌÐÅ)
+ç¡¬ä»¶èµ„æº:
+	1,DS0(è¿žæŽ¥åœ¨PB5),DS1(è¿žæŽ¥åœ¨PE5)
+	2,èœ‚é¸£å™¨(è¿žæŽ¥åœ¨PB8) 
+	3,æŒ‰é”®KEY0(PE4)/KEY1(PE3)/KEY2(PE2)/KEY_UP(PA0,ä¹Ÿç§°ä¹‹ä¸ºWK_UP)
+	4,å¤–éƒ¨SRAM(IS62WV51216,é€šè¿‡FSMCé©±åŠ¨,FSMC_NE3æŽ¥SRAM) 
+	5,ä¸²å£1(æ³¢ç‰¹çŽ‡:115200,PA9/PA10è¿žæŽ¥åœ¨æ¿è½½USBè½¬ä¸²å£èŠ¯ç‰‡CH340ä¸Šé¢)
+	6,ä¸²å£3(æ³¢ç‰¹çŽ‡:115200,PB10/PB11)
+	7,ALIENTEK 2.8/3.5/4.3/7å¯¸TFTLCDæ¨¡å—(é€šè¿‡FSMCé©±åŠ¨,FSMC_NE4æŽ¥LCDç‰‡é€‰/A10æŽ¥RS)
+	8,TPADç”µå®¹è§¦æ‘¸æŒ‰é”®(å³ä¸‹è§’LOGO,å³TPAD,è¿žæŽ¥åœ¨PA1)
+	9,å®šæ—¶å™¨TIM2~TIM8
+	10,RTC(å®žæ—¶æ—¶é’Ÿ)
+	11,ADC(è¯»å–å†…éƒ¨æ¸©åº¦ä¼ æ„Ÿå™¨)
+	12,VS1053(éŸ³ä¹æ’­æ”¾/NESæ¸¸æˆ/å½•éŸ³æœºå®žéªŒ)
+	13,å…‰æ•ä¼ æ„Ÿå™¨(è¿žæŽ¥åœ¨PF8)
+	14,24C02(IICè¿žæŽ¥åœ¨PB6/PB7ä¸Šé¢) 
+	15,W25Q128(SPI FLASHèŠ¯ç‰‡,è¿žæŽ¥åœ¨SPI2ä¸Š)  
+	16,è§¦æ‘¸å±(TFTLCDæ¨¡å—è‡ªå¸¦äº†,IOçŠ¶æ€ä¸º:T_PEN(PF10)/T_MOSI(PF9)/T_MISO(PB2)/T_SCK(PB1)/T_CS(PF11)) 
+	17,9é’ˆFCæ¸¸æˆæ‰‹æŸ„(CLKæŽ¥PD3,DATæŽ¥PB10,LATæŽ¥PB11)
+	18,DS18B20ä¼ æ„Ÿå™¨ä¸€ä¸ª(æŽ¥åœ¨PG11ä¸Š). 	
+	19,ALIENTEK MPU6050æ¨¡å—ä¸€ä¸ª(è¿žæŽ¥åœ¨PB10(SCL),PB11(SDA),PA15(AD0)ä¸Šé¢,INTæœªç”¨åˆ°). 
+	20,NRF24L01æ¨¡å—(SPI2(PB13/PB14/PB15)/IRQ(PG6)/CS(PG7)/CE(PG8)). 
+	21,ALIENTEK OV7670æ‘„åƒå¤´æ¨¡å—
+	22,USB_SLAVEæŽ¥å£(é€šè¿‡è·³çº¿å¸½å°†D-/D+è¿žæŽ¥åœ¨PA11/PA12ä¸Š)
+	23,DM9000(é€šè¿‡FSMCé©±åŠ¨,FSMC_NE2æŽ¥DM9000) 
+	24,SDå¡,é€šè¿‡SDIO(SDIO_D0~D4(PC8~PC11),SDIO_SCK(PC12),SDIO_CMD(PD2))è¿žæŽ¥ 
+	25,HS0038çº¢å¤–æŽ¥æ”¶å¤´
+	26,æ¿è½½å’ªå¤´(å½•éŸ³/TOMçŒ«)
+	27,æ¿è½½å–‡å­(æ’­æ”¾éŸ³ä¹/NESæ¸¸æˆ/TOMçŒ«)
+	28,ALIENTEK SIM900/SIM900A GSMæ¨¡å—(ç”µè¯/çŸ­ä¿¡)
 	
 		
-ÊµÑéÏÖÏó:
-	±¾ÊµÑé¹¦ÄÜ±È½Ï¸´ÔÓ,¾ßÌå½éÉÜÇë²Î¿¼¡¶STM32¿ª·¢Ö¸ÄÏ¡·V3°æ±¾,µÚÎåÊ®¾ÅÕÂ¡£ 
+å®žéªŒçŽ°è±¡:
+	æœ¬å®žéªŒåŠŸèƒ½æ¯”è¾ƒå¤æ‚,å…·ä½“ä»‹ç»è¯·å‚è€ƒã€ŠSTM32å¼€å‘æŒ‡å—ã€‹V3ç‰ˆæœ¬,ç¬¬äº”åä¹ç« ã€‚ 
 
-×¢ÒâÊÂÏî:
-	1,4.3´çºÍ7´çÆÁÐèÒª±È½Ï´óµçÁ÷,USB¹©µç¿ÉÄÜ²»×ã,ÇëÓÃÍâ²¿µçÔ´ÊÊÅäÆ÷(ÍÆ¼öÍâ½Ó12V 1AµçÔ´).
-	2,±¾Àý³ÌÔÚLCD_Initº¯ÊýÀïÃæ(ÔÚILI93xx.c),ÓÃµ½ÁËprintf,Èç¹û²»³õÊ¼»¯´®¿Ú1,½«µ¼ÖÂÒº¾§ÎÞ·¨ÏÔÊ¾!! 
-	3,±¾Àý³ÌÐè×Ô±¸Åä¼þ(·Ç±ØÐë)°üÀ¨:
-		a,SD¿¨
-		b,ALIENTEK OV7670ÉãÏñÍ·Ä£¿é
-		c,ALIENTEK MPU6050Ä£¿é
-		d,ALIENTEK GSM/GPRSÄ£¿é
-		e,DS18B20Êý×ÖÎÂ¶È´«¸ÐÆ÷
-		f,NRF24L01ÎÞÏßÄ£¿é
-		g,¶ú»ú 
-	4,°´RESET¸´Î»½øÈë¿ª»ú½çÃæ(×Ô¼ì½çÃæ)ºó,Ñ¸ËÙ°´ÒÔÏÂ°´¼ü:
-		°´×¡KEY0²»·Å:¿ÉÒÔÇ¿ÖÆ½øÈëÐ£×¼½çÃæ,¶Ô´¥ÃþÆÁ½øÐÐÐ£×¼(½öÏÞµç×èÆÁ,¶ÔµçÈÝÆÁÎÞÐ§).
-		°´×¡KEY1²»·Å:¿ÉÒÔÇ¿ÖÆ½øÈë×Ö¿â¸üÐÂ,¸üÐÂ×Ö¿â.
-		°´×¡KEY2²»·Å:¿ÉÒÔÇ¿ÖÆ²Á³ýÕû¸öSPI FLASH,·½±ãÊ¹ÓÃSD¿¨¿ìËÙ¸üÐÂÏµÍ³ÎÄ¼þ.
-        ---ÌáÊ¾:°´×¡KEY0~KEY2ÊÇÒªÒ»Ö±°´×¡,²¢ÄÍÐÄµÈ´ý.Ö±µ½½øÈëÏàÓ¦½çÃæ/³öÏÖÌáÊ¾.
-    5,ÕÕÏà»ú¹¦ÄÜ,°´KEY_UP°´¼ü¿ÉÒÔ½øÐÐÕÕÏà. 
-    6,ÔÚÒôÀÖ²¥·ÅÆ÷½çÃæ,µ÷½ÚµÄÒôÁ¿²»»á×Ô¶¯±£´æ,ÔÚÉèÖÃ½çÃæÉèÖÃºÃÒôÁ¿,²¢ÍË»ØÖ÷½çÃæ,²Å»á±£´æ.	
-	7,P8¶Ë¿Ú,ÌøÏßÃ±Ä¬ÈÏÁ¬½Ó·½Ê½Îª:PB10(TX)Á¬COM3_RX,PB11(RX)Á¬COM3_TX.
-	8,P10¶Ë¿Ú(¶à¹¦ÄÜ¶Ë¿Ú),Ä¬ÈÏÓÃÌøÏßÃ±Á¬½Ó:ADCºÍTPAD.
-	9,P4¶Ë¿Ú,ÌøÏßÃ±Á¬½Ó·½Ê½Îª:PA9(T)Á¬RXD,PA10(R)Á¬TXD.
-	11,P9¶Ë¿Ú,ÌøÏßÃ±Á¬½Ó·½Ê½Îª:PA11Á¬D-,PA12Á¬D+.
-	12,ÎÞÏß´«Êé¹¦ÄÜ,ÐèÒª2Ì×¿ª·¢°å²Å¿ÉÒÔ²âÊÔ.
+æ³¨æ„äº‹é¡¹:
+	1,4.3å¯¸å’Œ7å¯¸å±éœ€è¦æ¯”è¾ƒå¤§ç”µæµ,USBä¾›ç”µå¯èƒ½ä¸è¶³,è¯·ç”¨å¤–éƒ¨ç”µæºé€‚é…å™¨(æŽ¨èå¤–æŽ¥12V 1Aç”µæº).
+	2,æœ¬ä¾‹ç¨‹åœ¨LCD_Initå‡½æ•°é‡Œé¢(åœ¨ILI93xx.c),ç”¨åˆ°äº†printf,å¦‚æžœä¸åˆå§‹åŒ–ä¸²å£1,å°†å¯¼è‡´æ¶²æ™¶æ— æ³•æ˜¾ç¤º!! 
+	3,æœ¬ä¾‹ç¨‹éœ€è‡ªå¤‡é…ä»¶(éžå¿…é¡»)åŒ…æ‹¬:
+		a,SDå¡
+		b,ALIENTEK OV7670æ‘„åƒå¤´æ¨¡å—
+		c,ALIENTEK MPU6050æ¨¡å—
+		d,ALIENTEK GSM/GPRSæ¨¡å—
+		e,DS18B20æ•°å­—æ¸©åº¦ä¼ æ„Ÿå™¨
+		f,NRF24L01æ— çº¿æ¨¡å—
+		g,è€³æœº 
+	4,æŒ‰RESETå¤ä½è¿›å…¥å¼€æœºç•Œé¢(è‡ªæ£€ç•Œé¢)åŽ,è¿…é€ŸæŒ‰ä»¥ä¸‹æŒ‰é”®:
+		æŒ‰ä½KEY0ä¸æ”¾:å¯ä»¥å¼ºåˆ¶è¿›å…¥æ ¡å‡†ç•Œé¢,å¯¹è§¦æ‘¸å±è¿›è¡Œæ ¡å‡†(ä»…é™ç”µé˜»å±,å¯¹ç”µå®¹å±æ— æ•ˆ).
+		æŒ‰ä½KEY1ä¸æ”¾:å¯ä»¥å¼ºåˆ¶è¿›å…¥å­—åº“æ›´æ–°,æ›´æ–°å­—åº“.
+		æŒ‰ä½KEY2ä¸æ”¾:å¯ä»¥å¼ºåˆ¶æ“¦é™¤æ•´ä¸ªSPI FLASH,æ–¹ä¾¿ä½¿ç”¨SDå¡å¿«é€Ÿæ›´æ–°ç³»ç»Ÿæ–‡ä»¶.
+        ---æç¤º:æŒ‰ä½KEY0~KEY2æ˜¯è¦ä¸€ç›´æŒ‰ä½,å¹¶è€å¿ƒç­‰å¾….ç›´åˆ°è¿›å…¥ç›¸åº”ç•Œé¢/å‡ºçŽ°æç¤º.
+    5,ç…§ç›¸æœºåŠŸèƒ½,æŒ‰KEY_UPæŒ‰é”®å¯ä»¥è¿›è¡Œç…§ç›¸. 
+    6,åœ¨éŸ³ä¹æ’­æ”¾å™¨ç•Œé¢,è°ƒèŠ‚çš„éŸ³é‡ä¸ä¼šè‡ªåŠ¨ä¿å­˜,åœ¨è®¾ç½®ç•Œé¢è®¾ç½®å¥½éŸ³é‡,å¹¶é€€å›žä¸»ç•Œé¢,æ‰ä¼šä¿å­˜.	
+	7,P8ç«¯å£,è·³çº¿å¸½é»˜è®¤è¿žæŽ¥æ–¹å¼ä¸º:PB10(TX)è¿žCOM3_RX,PB11(RX)è¿žCOM3_TX.
+	8,P10ç«¯å£(å¤šåŠŸèƒ½ç«¯å£),é»˜è®¤ç”¨è·³çº¿å¸½è¿žæŽ¥:ADCå’ŒTPAD.
+	9,P4ç«¯å£,è·³çº¿å¸½è¿žæŽ¥æ–¹å¼ä¸º:PA9(T)è¿žRXD,PA10(R)è¿žTXD.
+	11,P9ç«¯å£,è·³çº¿å¸½è¿žæŽ¥æ–¹å¼ä¸º:PA11è¿žD-,PA12è¿žD+.
+	12,æ— çº¿ä¼ ä¹¦åŠŸèƒ½,éœ€è¦2å¥—å¼€å‘æ¿æ‰å¯ä»¥æµ‹è¯•.
 	
 
-			ÕýµãÔ­×Ó@ALIENTEK 
-			¹ãÖÝÊÐÐÇÒíµç×Ó¿Æ¼¼ÓÐÏÞ¹«Ë¾
-			µç»°£º020-38271790
-			´«Õæ£º020-36773971
-			¹ºÂò£ºhttp://eboard.taobao.com
-			¹«Ë¾ÍøÕ¾£ºwww.alientek.com
-			¼¼ÊõÂÛÌ³£ºwww.openedv.com
+			æ­£ç‚¹åŽŸå­@ALIENTEK 
+			å¹¿å·žå¸‚æ˜Ÿç¿¼ç”µå­ç§‘æŠ€æœ‰é™å…¬å¸
+			ç”µè¯ï¼š020-38271790
+			ä¼ çœŸï¼š020-36773971
+			è´­ä¹°ï¼šhttp://eboard.taobao.com
+			å…¬å¸ç½‘ç«™ï¼šwww.alientek.com
+			æŠ€æœ¯è®ºå›ï¼šwww.openedv.com
 
 
 
